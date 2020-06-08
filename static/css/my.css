@@ -1,0 +1,54 @@
+body{
+    /*background:#fff url(../image/moon.jpg) no-repeat left top;*/
+    /*background-size:100%;*/
+    margin: 10px;
+    /*background-color: rgb(9, 134, 123);*/
+}
+
+.chart-wrap {
+    background-image: url(../image/moon.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+}
+
+.downDiv {
+    margin: 10px;
+}
+
+.downDiv_div {
+    padding: 14px;
+    border-radius: 5px;
+    margin: 0 2.5% 19px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+
+    background-color: #1cbbb4;
+    color: #ffffff;
+
+    box-shadow: 2px 2px 3px rgba(26, 26, 26, 0.2);
+    --ShadowSize: 0 1px 2px;
+
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.title {
+    color: #1cbbb4;
+    font-family: cursive;
+    font-size: 18px;
+    font-weight:bold;
+}
+.title_i {
+    position: absolute;
+    left: 25px;
+    top: 15px;
+}
+.title_j {
+    position: absolute;
+    right: 25px;
+    top: 15px;
+}
